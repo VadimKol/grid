@@ -38,6 +38,7 @@ a {
     color: #f9f9f9;
     border: 2px solid #e2e3e3;
     text-transform: uppercase;
+    -webkit-transition: color 0.2s, background-color 0.2s;
     transition: color 0.2s, background-color 0.2s;
 }
 a:hover {
@@ -62,7 +63,8 @@ a:hover {
     background-image: url(../img/bg-main.png);
     grid-area: a;
     padding: 267px 15px 342px;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     background-position-x: 80%;
 }
 .grid-item-red {
@@ -76,7 +78,8 @@ a:hover {
     color: #666666;
     grid-area: c;
     padding: 88px 15px 115px;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 .grid-item-pic1 {
     background-image: url(../img/bg-one.png);
@@ -245,10 +248,10 @@ a:hover {
     }
 }
 @media screen and (max-width: 760px) {
-    p {font-size: calc(18px + (36 - 18) * ((100vw - 320px) / (760 - 320)));}
+    p {font-size: calc(18px + (36 - 18) * (100vw / 440 - 320px / 440));}
 }
 @media screen and (max-width: 590px) {
-    h1 {font-size: calc(36px + (72 - 36) * ((100vw - 320px) / (590 - 320)));}
+    h1 {font-size: calc(36px + (72 - 36) * (100vw / 270 - 320px / 270));}
     .grid-item-blue  a,
     .grid-item-green a,
     .grid-item-gray  a {
