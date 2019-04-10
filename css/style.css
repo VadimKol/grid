@@ -386,3 +386,15 @@ a:hover {
     .grid-item-green     {-ms-grid-row: 11;}
     .grid-item-gray      {-ms-grid-row: 12;}
 }
+_::-moz-svg-foreign-content, :root .grid-item-pic1 {
+    float: left;
+}
+_::-moz-svg-foreign-content, :root .grid-item-pic3 {
+    float: left;
+}
+_::-moz-svg-foreign-content, :root .grid-item-blue-text {
+    float: left;
+}
+_::-moz-svg-foreign-content, :root .grid-item-pic5 {
+    height: 498px;
+}
