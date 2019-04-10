@@ -388,9 +388,11 @@ a:hover {
 }
 _::-moz-svg-foreign-content, :root .grid-item-pic1 {
     float: left;
+    width: 50%;
 }
 _::-moz-svg-foreign-content, :root .grid-item-pic3 {
     float: left;
+    width: 50%;
 }
 _::-moz-svg-foreign-content, :root .grid-item-blue-text {
     float: left;
