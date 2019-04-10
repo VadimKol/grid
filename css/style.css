@@ -390,16 +390,17 @@ a:hover {
 /* Safari 5.1-6.0, Chrome 10-24 */
 _::-moz-svg-foreign-content, :root .grid-item-pic1 {
     float: left;
-    width: 55%;
+    width: 50%;
 }
 _::-moz-svg-foreign-content, :root .grid-item-pic3 {
     float: left;
-    width: 55%;
+    width: 50%;
 }
 _::-moz-svg-foreign-content, :root .grid-item-blue-text {
     float: left;
-    width: 55%;
+    width: 50%;
 }
 _::-moz-svg-foreign-content, :root .grid-item-pic5 {
+    width: 50%;
     height: 498px;
 }
