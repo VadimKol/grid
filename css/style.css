@@ -399,8 +399,8 @@ _::-moz-svg-foreign-content, :root .grid-item-pic3 {
 _::-moz-svg-foreign-content, :root .grid-item-blue-text {
     float: left;
     width: 50%;
-    max-width: 512px;
+    box-sizing: border-box;
 }
 _::-moz-svg-foreign-content, :root .grid-item-pic5 {
-    height: 498px;
+    height: 543px;
 }
