@@ -406,3 +406,6 @@ _::-moz-svg-foreign-content, :root .grid-item-pic5 {
 _::-moz-svg-foreign-content, :root .grid-item-blue p {
     max-width: 434px;
 }
+_::-moz-svg-foreign-content, :root .grid-item-blue h2 {
+    max-width: 434px;
+}
