@@ -268,6 +268,7 @@ a:hover {
     h1 {font-size: 35px;}
     p  {font-size: 18px;}
 }
+/*ie11*/
 @media all and (-ms-high-contrast:none)
 {
     .grid {
@@ -386,17 +387,18 @@ a:hover {
     .grid-item-green     {-ms-grid-row: 11;}
     .grid-item-gray      {-ms-grid-row: 12;}
 }
+/* Safari 5.1-6.0, Chrome 10-24 */
 _::-moz-svg-foreign-content, :root .grid-item-pic1 {
     float: left;
-    width: 50%;
+    width: 55%;
 }
 _::-moz-svg-foreign-content, :root .grid-item-pic3 {
     float: left;
-    width: 50%;
+    width: 55%;
 }
 _::-moz-svg-foreign-content, :root .grid-item-blue-text {
     float: left;
-    width: 50%;
+    width: 55%;
 }
 _::-moz-svg-foreign-content, :root .grid-item-pic5 {
     height: 498px;
